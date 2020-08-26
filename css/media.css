@@ -1,0 +1,316 @@
+@media (max-width: 2560px) {
+
+	.portfolio .list .item {
+		margin-left: 35px;
+}
+	}
+
+@media (max-width: 1024px) {
+
+	.header_top .nav a {
+		font-size: 22px;
+		padding: 15px 15px;	
+}
+
+	.header .nav > ul {
+		display: none;
+		background-color: #000;
+		opacity: .7;
+		text-align: left;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		border-right: 1px solid #c9c9c9;
+			
+}
+
+	.header_top .nav li ul {
+		background-color: #000;
+		position: absolute;
+		left: 100%;
+		top:0;	
+}
+
+	.header .nav-toggle {
+		display: inline-block;	
+}
+
+	.header #nav-toggle:checked ~ ul {
+		display: inline-block;	
+}
+
+
+	.header .btn_promo {
+			width: 150px;
+			height: 150px;
+			font-size: 24px;	
+}
+
+	.footer .item:nth-child(2) {
+			margin-right: -75%;						
+}
+
+	}
+
+
+	@media (max-width: 900px) {
+
+		.header_top .nav a {
+			font-size: 22px;
+			padding: 15px 15px;	
+}
+
+		.team .circle {
+			width: 200px;
+			height: 200px;
+}	
+	}
+
+	@media (max-width: 815px) {
+
+		.portfolio .list .item {
+			width: 250px;	
+}
+
+		.portfolio .list .item img {
+			width: 100%;	
+}
+	}
+
+	@media (max-width: 768px) {
+
+		.header_top .nav a {
+			font-size: 22px;
+			padding: 15px 15px;	
+}
+
+		.header {
+			padding: 45px 0 140px 0;
+
+}
+
+		.header p {
+			margin-top: 190px;			
+}
+
+		.services,
+		.about_us,
+		.team,
+		.contact {
+			padding: 100px 0;
+}
+		.header .promo {
+			width: 300px;	
+			left: calc(50% - 150px);
+}
+		.header .btn_promo {
+			width: 100px;
+			height: 100px;
+			font-size: 16px;	
+}
+		.portfolio  {
+			padding: 100px 0 50px;
+}
+
+		.logos .item {
+			justify-content: space-between;
+			flex-wrap: wrap;
+							
+}
+
+		.logos .item img {
+			margin: 5px 25px 5px 25px;
+}
+
+
+		.about_us .item:not(:last-child) {	
+			height: 230px;	
+}
+
+		.about_us .item:nth-child(2n+1) .content .img_ab {
+			margin-right: -182px;				
+}
+
+		.about_us .item:nth-child(2n) .content .img_ab {
+			margin-left: -182px;				
+}
+
+		.about_us .item:not(:last-child) .content:first-child {
+			border-right: none;
+}
+
+		.team .list {
+			flex-wrap: wrap;
+}
+
+		.footer .list {
+			flex-wrap: wrap;
+}
+
+
+		.footer .item:nth-child(2) {
+			margin-right: 0;
+			margin-top: 10px;	
+}
+
+	}
+
+
+	@media (max-width: 760px) {
+
+		.header_top .nav a {
+			font-size: 22px;
+			padding: 15px 15px;	
+}
+
+		.services .list  {
+			flex-wrap: wrap;		
+}
+
+		.services .list .item {
+			margin-left: 0;		
+}
+
+		.services .list .item:not(:last-child) {
+			margin-bottom: 50px;			
+}
+
+		.about_us .item:nth-child(2n+1) .content .img_ab {
+			margin-left: 10px;				
+}
+
+		.about_us .item:nth-child(2n) .content .img_ab {
+			margin-right: 10px;
+						
+}
+
+		.portfolio .list .item {
+			width: 200px;	
+}
+
+		.portfolio .list .item img {
+			width: 100%;	
+}
+
+	}
+
+	@media (max-width: 700px) {
+
+		.header_top .nav a {
+			font-size: 22px;
+			padding: 15px 15px;	
+}
+
+		.footer .list {
+			flex-direction: column;
+			margin-left: 0;		
+}
+
+	}
+
+	@media (max-width: 590px) {
+
+		.header_top .nav a {
+			font-size: 22px;
+			padding: 15px 15px;	
+}
+
+		.portfolio .list {
+			justify-content: center;
+}
+
+		.portfolio .list .item {
+			margin-left: 0;
+}		
+
+		.about_us .item .content .img_ab img {
+			display: none;				
+}
+
+	}
+
+	@media (max-width: 425px) {
+
+		.header_top .nav a {
+			font-size: 22px;
+			padding: 15px 15px;	
+}
+
+		.header {
+			padding: 25px 0 100px 0;
+
+}
+
+		.header p {
+			font-size: 30px;
+			margin-top: 120px;			
+}
+
+		.header h3 {
+			font-size: 55px;			
+}
+		.services,
+		.about_us,
+		.team,
+		.contact {
+			padding: 50px 0;
+}
+
+		.services h2,
+		.portfolio h2,
+		.about_us h2,
+		.team h2,
+		.contact h2 {
+		font-size: 30px;
+}
+
+		.header_top .nav a {
+			font-size: 22px;
+			padding: 15px 15px;	
+}
+
+		.header_top .nav li  ul li a {
+			font-size: 20px;
+			padding: 5px 5px 5px 20px;
+	
+}
+
+		.portfolio  {
+			padding: 50px 0 20px;
+}
+
+		.header .btn_promo {
+			right: 5%;
+			top: 75%;	
+}
+
+		.services .list  {
+			flex-direction: column;			
+}
+		.services .list .item:not(:last-child) {
+			margin-bottom: 50px;			
+}
+
+		.contact .item input {
+			padding: 4px;
+			
+}
+
+		.contact .item textarea {
+			padding: 4px;
+	
+}
+
+		.footer .item {
+			width: 100%;
+			text-align: center;
+	
+}
+
+		.footer .item:first-child a {
+			font-size: 12px;
+	
+}
+
+	}
